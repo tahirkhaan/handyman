@@ -1,0 +1,100 @@
+#menu_login li{
+	padding-top: 11px;
+    padding-left: 32px;
+}
+
+#menu-right li{
+	
+    margin-bottom: -13px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 2px 4px 2px rgba(18, 18, 18, 0.49);
+    background-color: #007CAA;
+    text-align: center;
+    z-index: 6;
+    line-height: 46px;
+    margin-right: 20px;
+} 
+#menu-right li a{
+	color: white;
+}
+.logocaption{
+    font-family: arial;
+    color: #034178;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 2px;
+    padding-left: 17px;
+}
+.back{
+    background-image: url('../img/back.jpg')
+    background-size: cover;
+}
+.input{
+   
+    width: 100%;
+    border: 1px solid #eee;
+    padding: 8px;
+    margin: 5px -5px 0;
+}
+.main{
+    padding-bottom: 15px;
+}
+.sub{
+    padding-top: 20px;
+    text-align: center;
+}
+.social i{
+    padding-right: 10px;
+    font-size: 40px;
+    color: blue;
+}
+.link li{
+    padding-top: 5px;
+}
+
+/*****Rating***/
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+.worker li{
+  margin-left: 10px;
+}

@@ -1,0 +1,15 @@
+i.fa.fa-facebook {
+    color: #3B5998;
+}
+i.fa.fa-twitter {
+    color: #1DA1F2;
+}
+i.fa.fa-google{
+  color: #DB4437;
+}
+i.fa.fa-linkedin{
+  color: #007bb5;
+}
+.social a i {
+    font-size: 22px;
+}
