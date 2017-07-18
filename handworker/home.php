@@ -87,9 +87,7 @@ $result = mysqli_query($conn, $sql);
 mysqli_close($conn);
 
   ?>
-                   
-
-                     
+                    
                   </div>
                </div>  
                
@@ -166,8 +164,6 @@ mysqli_close($conn);
    </div>
 </div>
 
-
-
 <div class="container-fluid" style="background-color:black;">
    <div class="container" style="padding-bottom: 30px;">
       <div class="row">
@@ -233,7 +229,6 @@ mysqli_close($conn);
   </div>
 </div>
 </div>
-
 
 
 <div class="container-fluid" style="background-color: #323232; padding-top: 20px;">
