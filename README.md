@@ -1,7 +1,4 @@
-# handworker_Project
-
-
-## Functionalities
+# handyman
 
 	Register/login as handworker or as a customer
 	According to customers provided specification, handworker will be searched
